@@ -1,1 +1,1 @@
-# peg-solitaire
+# multicolor-peg-solitaire
