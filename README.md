@@ -167,6 +167,6 @@ Obviously, playing this out for oneself is laborious. To see an example of the s
 * MultiboardSolver can be streamlined further by implementing a hashtable instead of individually comparing each 2D array.
 * Ensure that MulticolorSolver is not making redundant checks via the Move object.
 
-## Achknowledgements
+## Acknowledgements
 
 I would like to thank Dr. Lauren Grimley at the University of Oklahoma for introducing me to the problem of peg solitaire in multiple colors. It's been a pleasure to work on!
