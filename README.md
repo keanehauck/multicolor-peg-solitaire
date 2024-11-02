@@ -68,7 +68,7 @@ Set these parameters to the desired value in src/Main.java.
 
 ## Example - setup
 
-The following example is for a monochromatic T<sup>5</sup> board in 5 colors.
+The following example is for a monochromatic T<sub>5</sub> board in 5 colors.
 
 * `boardTemp` is set as follows:
 ```
