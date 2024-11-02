@@ -42,7 +42,7 @@ The following variables are intended to be changed by the user.
 
 * `MulticolorSolver solve = new MulticolorSolver(boardTemp, 5, "singularSolutions.txt", true, false, false, false);` - Constructor for MulticolorSolver.
 
-     Format: (int[][], int, String, boolean, boolean, boolean, boolean)
+     Format: (int[][], int, String, boolean, boolean, boolean, boolean) \
      Parameters: (board, board size, file name for solutions, animate in console, output to file, restrict to N jumps, compute vector)
 
      The user can change each individual parameter to get the desired functionality.
@@ -53,7 +53,7 @@ The following variables are intended to be changed by the user.
 
 * `MultiboardSolver m = new MultiboardSolver(newBoard, "solutions.txt");` - Constructor for MultiboardSolver.
 
-     Format: (int[][], String)
+     Format: (int[][], String) \
      Parameters: (board, file name for solutions)
 
      The user can change each individual parameter to get the desired functionality.
