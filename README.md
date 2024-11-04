@@ -9,21 +9,21 @@ This project is designed to provide solutions for two distinct problems in peg s
 Once downloaded, this project can be modified via variables in src/Main.java (Main method).
 ```
 int[][] boardTemp = {
-					{0, 0, 0, 0, 0},
-					{1, 1, 0, 0, 0},
-					{1, 1, 1, 0, 0},
-					{1, 1, 1, 1, 0},
-					{1, 1, 1, 1, 1}
-			};
+	{0, 0, 0, 0, 0},
+	{1, 1, 0, 0, 0},
+	{1, 1, 1, 0, 0},
+	{1, 1, 1, 1, 0},
+	{1, 1, 1, 1, 1}
+};
 			
 ```
 *Example of modifiable board variable in Main()*
 
 Project structure:
-* `src/Main.java` - Main class
-* `src/MulticolorSolver.java` - Class containing functionality to solve a board for any size / any # of colors.
-* `src/Move.java` - Helper class to represent a move on a board.
-* `src/MultiboardSolver.java` - Streamlined version of MulticolorSolver.java. Used in solving a large number of boards in specifically 3 colors. Reduced method reference and object overhead.
+* `src/main/Main.java` - Class containing main() and methods for generating all permutations of a given board.
+* `src/main/MulticolorSolver.java` - Class containing functionality to solve a board for any size / any # of colors.
+* `src/main/Move.java` - Helper class to represent a move on a board.
+* `src/main/MultiboardSolver.java` - Streamlined version of MulticolorSolver.java. Used in solving a large number of boards in specifically 3 colors. Reduced method reference and object overhead.
 
 A list of how to execute various featues is described below.
 
